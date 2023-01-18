@@ -1,0 +1,17 @@
+footer {
+  margin-top: 100px;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+form > input{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form > input:not(:last-child){
+  margin-bottom: 5px;
+}

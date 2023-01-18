@@ -1,0 +1,18 @@
+<%- include('partials/header'); -%>
+
+    <div class="intro">
+    <h2>Register</h2>
+    </div>
+
+    <form class="">
+        <input class="email" id="emailField" autocomplete="email" type="text" placeholder="E-Mail"/>
+        <input class="username" id="usernameField" autocomplete="username" type="text" placeholder="Username"/>
+        <input class="password" id="passwordField" autocomplete="new-password" type="password" placeholder="Password"/>
+        <input class="confirm" id="confirmField" autocomplete="new-password" type="password" placeholder="Confirm Password"/>
+        <button class="" type="button" onclick="register()">log in</button>
+    </form>
+
+    <p id="confirmWarning"></p>
+
+    <script src="js/index.js" defer></script>
+<%- include('partials/footer'); -%>

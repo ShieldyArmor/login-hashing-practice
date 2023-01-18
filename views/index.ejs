@@ -1,0 +1,16 @@
+<%- include('partials/header'); -%>
+
+    <div class="intro">
+    <h2>Login</h2>
+    </div>
+
+    <form class="login">
+        <input class="username" id="usernameField" autocomplete="username" type="text" placeholder="Username"/>
+        <input class="password" id="passwordField" autocomplete="current-password" type="password" placeholder="Password"/>
+        <button class="login" type="button" onclick="login()">log in</button>
+    </form>
+
+    <p>Forgot your password? <a class="" href="/forgot">Click here</a></p>
+
+    <script src="js/index.js" defer></script>
+<%- include('partials/footer'); -%>
