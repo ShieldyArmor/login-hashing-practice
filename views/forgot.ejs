@@ -5,8 +5,11 @@
     </div>
 
 <form class="login">
-    <input class="username" id="usernameField" autocomplete="email" type="text" placeholder="email"/>
-    <button class="login" type="button" onclick="SendMail()">log in</button>
+    <input class="email" id="emailField" autocomplete="email" type="text" placeholder="email"/>
+    <button class="login" type="button" onclick="sendResetPass()">Reset Password</button>
+    <p id="statusMessage"></p>
 </form>
 
+
+<script src="js/index.js" defer></script>
 <%- include('partials/footer'); -%>

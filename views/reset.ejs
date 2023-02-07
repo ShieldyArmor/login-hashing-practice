@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+
+<div class="intro">
+    <h2>Forgot password?</h2>
+</div>
+
+
+    <input class="newPass" id="newPassField" autocomplete="new-password" type="password" placeholder="New password"/>
+    <input class="newPass" id="newConfirmPassField" autocomplete="new-password" type="password" placeholder="Confirm new password"/>
+    <button class="login" type="button" onclick="resetPass()">Reset password</button>
+    <p id="statusMessage"></p>
+
+    <script src="js/index.js" defer></script>
+<%- include('partials/footer'); -%>
